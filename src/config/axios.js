@@ -1,7 +1,6 @@
 import axios from 'axios'
 
 const clientAxios = axios.create({
-    baseURL: 'https://xkcd.com/',
     headers: {
         "Accept": "application/json, text/plain",
         "Content-Type": "application/json",
